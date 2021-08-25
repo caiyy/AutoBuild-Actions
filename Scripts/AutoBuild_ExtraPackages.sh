@@ -32,6 +32,7 @@ coolsnowwolf/lede:master)
 	case "${TARGET_PROFILE}" in
 	asus_rt-acrh17 | d-team_newifi-d2 | xiaoyu_xy-c5)
 		AddPackage git other luci-app-usb3disable rufengsuixing master
+		AddPackage git other openwrt-passwall xiaorouji main
 	;;
 	x86_64)
 		AddPackage git other openwrt-passwall xiaorouji main
